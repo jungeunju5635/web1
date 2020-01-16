@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세계자연기금 홈페이지 | WWF</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="./wwf_v6.css">
+    <link rel="stylesheet" href="./wwf.js">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png">
+
+    <link rel="stylesheet" href="./webfont.css">
+</head>
+<!-- <script type="text/javascript">
+    var nav = $("#nav ul li");
+    var cont = $("#contents > div");
+
+  nav.click(function(e){
+    e.preventDefault();
+    var target = $(this);
+    var index = target.index();
+    //alert(index);
+    var section = cont.eq(index);
+    var offset = section.offset().top;
+    $("html,body").animate({ scrollTop:offset },600,"easeInOutExpo");
+});
+</script> -->
+<body>
+  <header>
+    <div id="fixed">
+        <div class="side_hover">
+            <button class="sidebtn">후원하기</button>
+        </div>
+    </div>
+    <div id="header-center">
+        <h1>
+            <a href="https://www.wwfkorea.or.kr/">
+              <img src="wwf이미지/logo2.png" alt="로고" class="penda">
+              <img src="wwf이미지/logoo.png" alt="wwf로고" class="wwf"></a>
+          </h1>
+    </div>
+  </header>
+
+
+<nav>
+<div id="nav-search">
+  <ul>
+    <li>
+      <a href="">My Page</a></li>
+    <li><a href="">인스타</a></li>
+    <li><a href="">블로그</a></li>
+  </ul>
+  <div id="lang">
+  <h4>
+    KOREA</h4>
+  <ul>
+      <li><span class="nation">WWF Global</span></li>
+      <li><span class="nation">>Adria</span></li>
+      <li><span class="nation">Argentina</span></li>
+      <li><span class="nation">Armenia</span></li>
+      <li><span class="nation">Australia</span></li>
+      <li><span class="nation">Austria</span></li>
+      <li><span class="nation">Azerbaijan</span></li>
+      <li><span class="nation">Belgium</span></li>
+      <li><span class="nation">Bhutan</span></li>
+      <li><span class="nation">Bolivia</span></li>
+      <li><span class="nation">Borneo</span></li>
+      <li><span class="nation">Brazi</span></li>l
+      <li><span class="nation">Bulgaria</span></li>
+      <li><span class="nation">Cambodia</span></li>
+      <li><span class="nation">Cameroon</span></li>
+      <li><span class="nation">Canada</span></li>
+      <li><span class="nation">Caucasus</span></li>
+      <li><span class="nation">Central African Republi</span>c</li>
+      <li><span class="nation">Central America</span></li>
+      <li><span class="nation">Chile</span></li>
+      <li><span class="nation">China</span></li>
+      <li><span class="nation">Colombia</span></li>
+      <li><span class="nation">Croatia</span></li>
+      <li><span class="nation">Democratic Republic of the Congo</span></li>
+      <li><span class="nation">Denmark</span></li>
+      <li><span class="nation">Ecuador</span></li>
+      <li><span class="nation">European Policy Office</span></li>
+      <li><span class="nation">Finland</span></li>
+      <li><span class="nation">France</span></li>
+      <li><span class="nation">Germany</span></li>
+      <li><span class="nation">Greater Mekong</span></li>
+      <li><span class="nation">Greece</li>
+      <li><span class="nation">Guianas</span></li>
+      <li><span class="nation">Hong Kong SAR</span></li>
+      <li><span class="nation">Hungary</span></li>
+      <li><span class="nation">India</span></li>
+      <li><span class="nation">Indonesia</span></li>
+      <li><span class="nation">Italy</span></li>
+      <li><span class="nation">Japan</span></li>
+      <li><span class="nation">Kenya</span></li>
+      <li><span class="nation">Korea</span></li>
+      <li><span class="nation">Laos</span></li>
+      <li><span class="nation">Latvia</span></li>
+      <li><span class="nation">Madagascar</span></li>
+      <li><span class="nation">Malaysia</span></li>
+      <li><span class="nation">Mediterranean</span></li>
+      <li><span class="nation">Mexico</span></li>
+      <li><span class="nation">Mongoliav</span></li>
+      <li><span class="nation">Mozambique</span></li>
+      <li><span class="nation">Myanmar</span></li>
+      <li><span class="nation">Nepal</span></li>
+      <li><span class="nation">Netherlands</span></li>
+      <li><span class="nation">New Zealand</span></li>
+      <li><span class="nation">Norway</span></li>
+      <li><span class="nation">Pakistan</span></li>
+      <li><span class="nation">Papua New Guinea</span></li>
+      <li><span class="nation">Paraguay</span></li>
+      <li><span class="nation">Peru</span></li>
+      <li><span class="nation">Philippines</span></li>
+      <li><span class="nation">Poland</span></li>
+      <li><span class="nation">Portugal</span></li>
+      <li><span class="nation">Regional Office Africa</span></li>
+      <li><span class="nation">Romania</span></li>
+      <li><span class="nation">Russia</span></li>
+      <li><span class="nation">Senegal</span></li>
+      <li><span class="nation">Serbia</span></li>
+      <li><span class="nation">Singapore</span></li>
+      <li><span class="nation">Slovakia</span></li>
+      <li><span class="nation">Slovenia</span></li>
+      <li><span class="nation">South Africa</span></li>
+      <li><span class="nation">South Pacific</span></li>
+      <li><span class="nation">Spain</span></li>
+      <li><span class="nation">Suriname</span></li>
+      <li><span class="nation">Sweden</span></li>
+      <li><span class="nation">Switzerland</span></li>
+      <li><span class="nation">Tanzania</span></li>
+      <li><span class="nation">Thailand</span></li>
+      <li><span class="nation">Turkey</span></li>
+      <li><span class="nation">Uganda</span></li>
+      <li><span class="nation">Ukraine</span></li>
+      <li><span class="nation">United Arab Emirates</span></li>
+      <li><span class="nation">United Kingdom</span></li>
+      <li><span class="nation">United States</span></li>
+      <li><span class="nation">Vietnam</span></li>
+      <li><span class="nation">Zambia</span></li>
+      <li><span class="nation">Zimbabwe</span></li>
+  </ul>
+</div>
+  <h3 class="blind">검색창</h3>
+  <fieldset>
+    <legend class="blind">검색</legend>
+    <input />
+    <button>
+      <span class="blind">검색</span>
+      <span id="search-img"></span>
+    </button>
+  </fieldset>
+</div>
+</nav>
+
+  <main>
+    <div id="main-centered" class="center-align">
+      <div id="main-first-block">
+        <div id="main-ad">
+            <iframe width="740px" height="420px" src="https://www.youtube.com/embed/8V1Nb7Bjd8c?start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h1 class="blind">치어남획</h1>
+
+      <div class="container_one">
+        <div class="side_first_ad">
+                <h1 class="blind">WWF x 넷플렉스</h1>
+                <span> <strong id="pp">우리의 지구(Our Planet)</strong></span>
+                <br><br><span> WWF와<strong>넷플릭스</strong>가 4년간 공동 작업한
+                    다큐멘터리입니다. <br>
+                                넷플릭스에서 Our Planet 시리즈를 시청해보세요</span>
+                            </div>
+                <div class="overlay overlayLeft">
+                  <iframe width="64%" height="100%" src="https://www.youtube.com/embed/sW3u7nTu-9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <img class="abcd" src="wwf이미지/넷플렉스.png" width="64%" height="100%"; alt="채용"> -->
+                </div>
+        </div>
+
+          <!-- <div class="container">
+                <img src="download.png" alt="Avatar" class="image">
+                <div class="overlay  overlayLeft">
+                    <div class="text">Left</div>
+                </div>
+            </div> -->
+        <div class="container_two">
+          <div class="side_second_ad">
+            <h1 class="blind">기후위기로 사라지는 북극곰을 지켜주세요</h1>
+            <span><strong id="tt">"2050년"</strong></span>
+            <br><br>
+            <p style="LINE-HEIGHT: 180%"><strong>북극곰</strong>
+              은 완전히 사라질 지 모릅니다. <br>
+              세계 평균보다 2배나 빠르게 진행되고 있는 북극의 온난화로
+              2008년 5월 미국 멸종위기종보호법에 의해 <br> <strong>멸종위기종</strong>
+              으로 지정되었습니다.</p>
+          </div>
+          <div class="overlayLeftB overlayB">
+            <iframe width="64%" height="100%" scrolling="no" src="https://campaign.wwfkorea.or.kr/FY20Polarbear?utm_medium=cpc&utm_source=googlepc&utm_campaign=cam_polarbear&utm_term=WWF&utm_content=0&gclid=CjwKCAiAx_DwBRAfEiwA3vwZYgRAnsjDowN5HdbGPfZW801QIQBiE2YTq5oBu5iXtt-kiMa5qe1VQxoCr-oQAvD_BwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+        </div>
+
+        <div class="container_thi">
+          <div class="side_third_ad">
+            <h1 class="blind">상괭이가 사라진다.</h1>
+            <strong id="ss"> 상괭이.</strong>
+            <br>
+          <p>
+           한반도 남서해에 주로 사는 작은 돌고래로
+           최근 그물에 걸려 개체수가 급감하고 있는 <strong>멸종위기종</strong>
+           이다. <br>
+          -해양수산부 지정 ‘보호 대상 해양 생물’ (2016년)- <br>
+          -IUCN red list ‘Endangered’ (2017년)-
+          </p>
+        </div>
+        <div class="overlayLeftC overlayC">
+            <iframe width="64%" height="100%" src="https://www.youtube.com/embed/vOlRAQlgWf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
+        </div>
+
+        <h2 class="blind"></h2>
+      </div>
+
+    <!-- <h3>main_list</h3>
+    <ul>
+      <li>NEW</li>
+      <li>REPORT</li>
+      <li>PRESS</li>
+      <li>STORY</li>
+      <li>NEWS</li>
+    </ul> -->
+
+    <div id ="main-second-block">
+      <div class="inline-block">
+        <div id="sec-nav">
+            <ul>
+                <li>NEW</li>
+                <li>REPORT</li>
+                <li>PRESS</li>
+                <li>STORY</li>
+                <li>NEWS</li>
+              </ul>
+        </div>
+      <div id="main_layout">
+        <div id="main_onebox">
+          <div id="new-cardnews">
+            <ul class="blind">
+              <li>[채용] Member Engagement Senior Officer </li>
+              <li>[공지] 개인정보 처리방침 개정 안내</li>
+              <li>[공지] 2019 소득공제 영수증 발급 안내</li>
+              <li>[채용] Market Engagement Officer</li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div id="cardone">
+              <div class="cardbox1">
+                <img src="wwf이미지/david_mariuz_aap__square_493817.jpg" width="166px" height="185px"; alt="구조">
+              </div>
+              <div class="specifice">
+                <h2>호주화재에대한 입장문</h2>
+              <span class="spec"> WWF-호주 더맛 오고만 사무총장은피해복구를 위한 세계자연기금의 장기적인 계획을 즉각적으로 실행하겠다고 선언했습니다. </span>
+              </div>
+            </div>
+
+            <div id="cardone">
+              <div class="cardbox1">
+                <img src="wwf이미지/서포터즈.jpg" width="166px" height="185px"; alt="채용">
+              </div>
+              <div class="specifice1">
+                <h2>[공지]</h2>
+                  <span class="spec"> WWF-Citi 기후행동 서포터즈 2기 자세히 보기 </span>
+              </div>
+            </div>
+            <div id="cardtree">
+              <div class="cardbox1">
+                    <img src="wwf이미지/wwf_korea_and_bel_1_493797.jpg" width="166px" height="185px"; alt="소득공제영수증">
+              </div>
+              <div class="specifice1">
+                <h2>[보도자료]</h2>
+                <span class="spec">WWF, 벨치즈코리아 “For All. For Good” 미션 및 CI 선포식 참가 </span>
+              </div>
+            </div
+            <div id="cardfour">
+                <img src="wwf이미지/kb_493771.jpg" width="166px" height="185px"; alt="중공식">
+
+            </div>
+
+      </div>
+
+      <div id="main_twobox">
+          <div id="news">
+            <div id="fircont">
+              <div class="newsone">
+                <img src="wwf이미지/new1.jpg" width="166px" height="108px" alt="보호">
+                </div>
+                <span class="camp">WWF(세계자연기금)은 LG유플러스와
+                    함께 멸종위기 동물을 보호하는 캠페인을
+                     진행</span>
+             </div>
+
+             <div id="seccont">
+              <div class="newstwo">
+                  <img src="wwf이미지/new2.jpg" width="166px" height="108px" alt="보호">
+
+                    </div>
+                <span class="camp">[보도자료]한국 온실가스배출량 규모 넘는
+                    285개 기업, 파리협정에 맞춘 검증된 목표 갖춰
+                   </span>
+                  </div>
+
+                <div id="thicont">
+              <div class="newstree">
+                  <img src="wwf이미지/서포터즈.jpg" width="166px" height="108px" alt="보호">
+
+              </div>
+                <span class="camp">[공지] WWF-Citi 기후행동 서포터즈
+                    2기 모집</span>
+                    <!-- <img src="wwf이미지/new3.jpg" width="166px" height="108px" alt="보호"> -->
+
+
+              </div>
+
+              <div id="fourcont">
+              <div class="newsfive">
+                    <img src="wwf이미지/new3.jpg" width="166px" height="108px" alt="보호">
+
+              </div>
+                <span class="camp">[파트너십] HSBC,
+                    수자원 보호와 지역사회 발전을 위한
+                     WWF 베트남 에코 트립 참여</span>
+              </div>
+          </div>
+      </div>
+
+      <div id="main_treebox">
+        <div id= "news1">
+          <div id="sixbox">
+          <div class="newstree">
+              <img src="wwf이미지/thumnail_1_493570.jpg" width="166px" height="108px" alt="보호">
+
+          </div>
+            <p class="camp">2019년 11월 판다메일
+              [WWF-Korea성과] 한국 토종 돌고래
+              상괭이 보호에 전 세계가 ...
+              </p>
+            </div>
+
+          <div id="sevenbox">
+          <div class="newstree">
+              <img src="wwf이미지/hsbc__greenweek__1_493518.jpg" width="166px" height="108px" alt="보호">
+              </div>
+            <p class="camp">[파트너십] WWF(세계자연기금),
+              HSBC ‘그린위크’ 참여
+              ‘우리의 지구(Our Planet)’ 상영회와
+              ‘HSBC-WWF Water Programme’의...
+              </p>
+          </div>
+          <div class="report">
+              <img src="wwf이미지/2018main_2.jpg" width="166px" height="180px" alt="보호">
+
+
+          </div>
+          <div class="ask">
+            <div class="first">
+              <img src="wwf이미지/main-newsletter4.jpg" width="166px" height="30px"alt="">
+            </div>
+            <div class="two">
+                <img src="wwf이미지/main-connect21.jpg" width="166px" height="30px"alt="">
+
+            </div>
+          </div>
+          <div class="letter"></div>
+        </div>
+        <div id="send1">
+            <div class="email">
+                <div class="center">
+                <h2>자연보전 소식을 이메일로 받아보세요.</h2>
+              </div>
+                <p class="block"><span class="red">*</span>필수항목</p>
+
+                <div class="one">
+                <p class="ee">이메일<span class="red">*</span></p>
+                <fieldset class="adress">
+                    <legend class="blind">이메일 주소</legend>
+                    <input />
+                  </fieldset>
+                </div>
+
+                <div class="one">
+                    <p class="ee">이름<span class="red">*</span></p>
+                    <fieldset class="adress">
+                        <legend class="blind">이름</legend>
+                        <input />
+                      </fieldset>
+                </div>
+                <div id="main_agree">
+                <div class="ee">
+                  수신동의 및 개인정보취급방침 동의 <span class="red">*</span>
+                </div>
+                <div class="agree"><input type="radio">동의</div>
+
+                <span class="blind">신청하기</span>
+                <input type="button" class="button c" value="신청하기">
+              </div>
+
+
+            </div>
+        </div>
+
+        <div id="send">
+
+        </div>
+
+    </div>
+
+
+
+      <div id="main_treebox"></div>
+
+
+      </div>
+    </div>
+
+      <div class="inline-block_two">
+          <div id="thi-nav">
+            <ul>
+              <li>wwf</li>
+              <li>캠페인</li>
+              <li>활동</li>
+              <li>참여하기</li>
+              <!-- <li>>>더보기</li> -->
+            </ul>
+          </div>
+          <div id="campain">
+            <div class="blind">멸종위기종</div>
+            <ul>
+                <li class="animalwrite">
+                  <p class="red1"><span style="color: red;">멸종위기종</span>
+                     <br> 당신의 관심이 필요할 때입니다. </p>
+                 </li>
+                <li class="animal">
+                  <div class="scr">
+                    <img src="wwf이미지/species-vaquita.jpg" width="140px" height="200px"alt="돌고래">
+
+                  </div>
+                  <div class="scr">
+                    <img src="wwf이미지/species-tiger.jpg" width="140px" height="200px"alt="호랑이">
+
+                  </div>
+              </li>
+                <li class="animal">
+                  <div class="scr">
+                    <img src="wwf이미지/species-asianelephant.jpg" width="140px" height="200px"alt="코끼리">
+
+                  </div>
+                  <div class="scr">
+                    <img src="wwf이미지/species-polarbear.jpg" width="140px" height="200px"alt="북극곰">
+
+                  </div>
+                </li>
+
+                <li class="animal">
+                  <div class="scr">
+                    <img src="wwf이미지/species-snowleopard.jpg" width="140px" height="200px"alt="표범">
+
+                  </div>
+                  <div class="scr">
+                    <img src="wwf이미지/species-giantpanda.jpg" width="140px" height="200px"alt="팬더">
+
+                  </div>
+                </li>
+            </ul>
+            <div class="blind">contact</div>
+            <ul class="cont">
+              <li>like</li>
+              <li>email</li>
+              <li>트위트</li>
+              <li>공유</li>
+            </ul>
+          </div>
+
+    </div>
+    <div id ="main-third-block">
+      <div class="earthhour">
+        <div id="subone">
+        <div class="sub_img">
+          <img src="wwf이미지/eh2019_todo_1_492071.jpg" width="166px" height="88px"alt="">
+
+        </div>
+        <div class="sub_write">
+          <span>전등을 끄고 <br> 생명의 빛을 켜는 <br> <strong style="color:red">한 시간</strong> <br>
+          <span class="start">WWF는 인류가 만든 기후변화와 환경 파괴의 심각성을 깨닫고.....
+              <!-- 변화를 만들기 위해 Earth Hour를 시작했습니다</span> -->
+            .</span>
+        </div>
+      </div>
+        <div class="sub_img">
+          <img src="wwf이미지/mid_301646_481957.jpg" width="166px" height="88px"alt="">
+
+        </div>
+        <div class="sub_write">
+          <span class="str">쓰레기를 줄이는 <br><strong style="color:red">10가지</strong> 팁 </span>
+          <br> <span class="start">일주일간 이 수칙들을 보고
+              평상시보다 얼마나 많은 양의 쓰레기를
+              줄일 수 있는지 알아보는 것은 어떨까요?</span>
+        </div>
+      </div>
+      <div class="step">
+          <div class="imgone">
+          <!-- <img src="wwf이미지/fa8e350a58dec.png" width="89px" height="91px"alt=""> -->
+          <p>상괭이를 <br> 도와주세요!</p> <br>
+          <strong>step1.</strong>
+          </div>
+          <div class="imgone">
+          <!-- <img src="wwf이미지/bfd594f231d37.png" width="89px" height="91px"alt=""> -->
+          <p>상괭이의 <br> 웃음을 되찾아 줄 수 있는 방법</p>
+          <strong>step2.</strong>
+          </div>
+          <div class="imgone">
+          <!-- <img src="wwf이미지/15638c6bf1425.png" width="89px" height="91px"alt=""> -->
+            <p>#지속가능한바다 <br> #상괭이 도와주기</p>
+            <strong>step3.</strong>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+  </main>
+
+  <footer>
+    <DIV class="blind">adress</DIV>
+    <div class="adress_footer">
+       <p class="person">사람과 자연의 조화, 우리가 만들어가는 미래입니다.</p>
+      <div class="bar"></div>
+      <div class="logo">
+        <img src="wwf이미지/logo.png" width="160px" height="91px"alt="로고">
+
+      </div>
+      <p class="per">
+      후원회원약관뉴스레터 신청문의개인정보 처리방침
+      재단법인 한국세계자연기금 l 대표자 : 손성환 l 고유번호 : 101-82-23485 l 서울시 종로구 종로 38 서울글로벌센터 702호
+      후원 문의 members@wwfkorea.or.kr l 기부/ 제휴 문의 partnership@wwfkorea.or.kr l PR문의 marketing@wwfkorea.or.kr l 기타 문의 info@wwfkorea.or.kr l 대표전화 : 02-722-1601
+      © 2019 WWF – World Wide Fund For Nature (also known as World Wildlife Fund). Creative Commons licence. -->
+    </div>
+    </footer>
